@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .center-align {
+            text-align: center;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas de Exercício</h1>
+    <h2>Tabela 1</h2>
+    <table>
+        <tr>
+            <td class="left-align">1</td>
+            <td class="left-align">2</td>
+            <td class="left-align">3</td>
+        </tr>
+        <tr>
+            <td class="center-align">4</td>
+            <td class="center-align">5</td>
+            <td class="center-align">6</td>
+        </tr>
+        <tr>
+            <td class="right-align">7</td>
+            <td class="right-align">8</td>
+            <td class="right-align">9</td>
+        </tr>
+    </table>
+
+    <h2>Tabela 2</h2>
+    <table>
+        <tr>
+            <td class="left-align">1</td>
+            <td class="left-align">2</td>
+            <td class="left-align">3</td>
+        </tr>
+        <tr>
+            <td colspan="3">4</td>
+        </tr>
+        <tr>
+            <td class="left-align">7</td>
+            <td class="left-align">8</td>
+            <td class="left-align">9</td>
+        </tr>
+    </table>
+
+    <h2>Tabela 3</h2>
+    <table>
+        <tr>
+            <td class="left-align">1</td>
+            <td class="left-align">2</td>
+            <td td rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td colspan="2">4</td>
+        </tr>
+        <tr>
+            <td class="left-align">5</td>
+            <td class="left-align">6</td>
+        </tr>
+    </table>
+</body>
+
+</html>
